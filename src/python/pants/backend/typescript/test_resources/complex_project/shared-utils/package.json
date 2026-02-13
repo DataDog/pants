@@ -9,7 +9,7 @@
     "@test/common-types": "*"
   },
   "devDependencies": {
-    "@types/react": "19.2.2",
-    "react": "19.2.0"
+    "@types/react": "19.2.13",
+    "react": "19.2.4"
   }
 }
