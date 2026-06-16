@@ -25,5 +25,14 @@
     "moduleNameMapper": {
       "^@app/(.*)$": "<rootDir>/src/$1"
     }
+  },
+  "overrides": {
+    "jest": {
+      "minimatch": "^9.0.9",
+      "glob": "^10.5.0"
+    },
+    "jest-util": {
+      "picomatch": "^4.0.4"
+    }
   }
 }

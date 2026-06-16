@@ -5,5 +5,23 @@
   "workspaces": [
     "jest_coverage",
     "mocha_coverage"
-  ]
+  ],
+  "overrides": {
+    "@jest/reporters": {
+      "minimatch": "^9.0.9",
+      "glob": "^10.5.0"
+    },
+    "jest-config": {
+      "minimatch": "^9.0.9",
+      "glob": "^10.5.0"
+    },
+    "jest-runtime": {
+      "minimatch": "^9.0.9",
+      "glob": "^10.5.0"
+    },
+    "mocha": {
+      "minimatch": "^9.0.9",
+      "glob": "^10.5.0"
+    }
+  }
 }

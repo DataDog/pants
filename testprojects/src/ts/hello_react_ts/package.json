@@ -46,5 +46,24 @@
     "setupFilesAfterEnv": [
       "<rootDir>/src/setupTests.ts"
     ]
+  },
+  "overrides": {
+    "ts-jest": {
+      "picomatch": "^2.3.2"
+    },
+    "jest": {
+      "minimatch": "^9.0.9",
+      "picomatch": "^2.3.2",
+      "glob": "^10.5.0"
+    },
+    "@types/jest": {
+      "picomatch": "^2.3.2"
+    },
+    "jest-environment-jsdom": {
+      "picomatch": "^2.3.2"
+    },
+    "ts-loader": {
+      "picomatch": "^2.3.2"
+    }
   }
 }

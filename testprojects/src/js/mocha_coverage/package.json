@@ -10,5 +10,16 @@
   "devDependencies": {
     "mocha": "11.7.4",
     "nyc": "17.1.0"
+  },
+  "overrides": {
+    "nyc": {
+      "minimatch": "^3.1.5"
+    },
+    "rimraf": {
+      "minimatch": "^3.1.5"
+    },
+    "test-exclude": {
+      "minimatch": "^3.1.5"
+    }
   }
 }
